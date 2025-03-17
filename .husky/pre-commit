@@ -1,0 +1,3 @@
+# validate branch name before commit
+yarn validate-branch-name
+yarn lint-staged

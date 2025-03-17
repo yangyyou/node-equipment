@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "node-dev": ["packages/node-dev/lib"],
+      "@node-dev/*": ["packages/*/lib"]
+    },
+    "allowJs": false,
+    "checkJs": false,
+    "noEmit": true
+  }
+}
