@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "lib"
+  },
+  "references": [{ "path": "../connect/tsconfig.build.json" }],
+  "exclude": ["node_modules", "**.test.ts", "dist"]
+}

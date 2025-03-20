@@ -3,8 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "node-dev": ["packages/node-dev/lib"],
-      "@node-dev/*": ["packages/*/lib"]
+      "@node-dev/*": ["packages/*/lib"],
+      "node-dev": ["packages/node-dev/lib"]
     },
     "allowJs": false,
     "checkJs": false,
